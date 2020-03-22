@@ -1,0 +1,42 @@
+baseURL = "https://gorira-tatsu.github.io/.github.io/"
+languageCode = "en-us"
+title = "gorira-blog"
+description = "gorira's blog"
+theme = "onepress"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+# Disable comments by leaving disqusShortname empty
+disqusShortname = ""
+copyright = "Copyright © 2019, gorira-tatsu"
+canonifyURLS = true
+paginate = 12
+
+[params]
+	author = "gorira-tatsu"
+        bio = "IQ3の低レイヤ好きな人。os自作入門の出会いから人生の道を180度変えた"
+	enableRSS = true
+	subscribeLink = "https://github.com/ijsucceed/onepress/blob/master/README.md#subscribe-link"
+	customCSS = false
+        readMore = "Read Up"
+    
+    # Social
+	twitter  = "https://twitter.com/GoriraTatsu"
+	github   = "https://github.com/gorira-tatsu"
+	facebook  = ""
+        linkedin  = ""
+
+    
+    # Widget
+    widgets = true
+    
+    # Author box and Share button
+    authorCard = false 
+    shareButton = true
+    
+    # Code highlighting with highlight.js
+    highlightJS = true
+
+# Taxonomies
+[taxonomies]
+    tag = "tags"
+
