@@ -10,6 +10,7 @@ disqusShortname = ""
 copyright = "Copyright © 2019, gorira-tatsu"
 canonifyURLS = true
 paginate = 12
+publishDir = "docs"
 
 [params]
 	author = "gorira-tatsu"
