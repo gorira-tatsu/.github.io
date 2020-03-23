@@ -409,11 +409,11 @@ aside .widgets .widget .widget-title {
 	font-weight: 400;
 	margin-bottom: 20px;
 }
-aside .widgets .promo-subscribe {
+aside .widgets .promo- {
 	background: #f5f5f5;
 	padding: 30px;
 }
-aside .widgets .promo-subscribe .button {
+aside .widgets .promo- .button {
 	width: 100%;
 	display: block;
 }

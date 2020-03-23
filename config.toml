@@ -16,7 +16,7 @@ publishDir = "docs"
 	author = "gorira-tatsu"
         bio = "IQ3の低レイヤ好きな人。os自作入門の出会いから人生の道を180度変えた"
 	enableRSS = true
-	subscribeLink = "https://github.com/ijsucceed/onepress/blob/master/README.md#subscribe-link"
+	Link = "https://github.com/ijsucceed/onepress/blob/master/README.md#-link"
 	customCSS = false
         readMore = "Read Up"
     
