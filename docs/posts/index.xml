@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>gorira-blog</title>
-    <link>https://gorira-tatsu.github.io/.github.io/</link>
-    <description>Recent content on gorira-blog</description>
+    <title>Posts on gorira-blog</title>
+    <link>https://gorira-tatsu.github.io/.github.io/posts/</link>
+    <description>Recent content in Posts on gorira-blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2019, gorira-tatsu</copyright>
     <lastBuildDate>Mon, 23 Mar 2020 19:44:43 +0900</lastBuildDate>
     
-	<atom:link href="https://gorira-tatsu.github.io/.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gorira-tatsu.github.io/.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -23,17 +23,6 @@ hugo 強い。静的サイトジェネレータ。個人的にすっごいやる
 hugo テーマ Onepress 微妙。俺が悪いんだけど使いにくいしなんか一番めんどくさかった気がする。でもレイアウト自体は気に入っているのでokです
 github pages これまた強い。無料で静的コンテンツをボーンと載せられる。制限もほとんどないし、アフェリエイトも載せられる。つまり最強。
 って感じです。かなり辛かったんですけどこれで安泰。さようなら。</description>
-    </item>
-    
-    <item>
-      <title>About Hugo</title>
-      <link>https://gorira-tatsu.github.io/.github.io/about/</link>
-      <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://gorira-tatsu.github.io/.github.io/about/</guid>
-      <description>「30日間でできる！OS自作入門」と言う本に出会い、qiitaに調子乗って投稿したところmattn氏に紹介されいいねが150以上つき調子に乗り今に至る。
-もっとすごい人が世の中には居るのでなんで自分が！？と思っているがやっぱりちょっと嬉しい。
-最近はhhkbを買ってさらに調子に乗っている。つまるところ長くなったが調子に乗りまくる人間である。</description>
     </item>
     
   </channel>
