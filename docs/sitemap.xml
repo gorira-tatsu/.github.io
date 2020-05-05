@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="https://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://gorira-tatsu.github.io/posts/2020-3-26/</loc>
+    <loc>https://gorira-tatsu.github.io/.github.io/posts/2020-3-26/</loc>
     <lastmod>2020-03-26T21:07:37+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gorira-tatsu.github.io/posts/</loc>
+    <loc>https://gorira-tatsu.github.io/.github.io/posts/</loc>
     <lastmod>2020-03-26T21:07:37+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gorira-tatsu.github.io/posts/2020-3-23/</loc>
+    <loc>https://gorira-tatsu.github.io/.github.io/posts/2020-3-23/</loc>
     <lastmod>2020-03-23T19:44:43+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gorira-tatsu.github.io/about/</loc>
+    <loc>https://gorira-tatsu.github.io/.github.io/about/</loc>
     <lastmod>2020-03-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gorira-tatsu.github.io/</loc>
+    <loc>https://gorira-tatsu.github.io/.github.io/</loc>
     <lastmod>2020-03-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gorira-tatsu.github.io/about/</loc>
+    <loc>https://gorira-tatsu.github.io/.github.io/about/</loc>
     <lastmod>2015-06-20T14:02:37+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gorira-tatsu.github.io/tags/</loc>
+    <loc>https://gorira-tatsu.github.io/.github.io/tags/</loc>
   </url>
   
 </urlset>
