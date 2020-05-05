@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on gorira-blog</title>
-    <link>https://gorira-tatsu.github.io/.github.io/posts/</link>
+    <link>https://gorira-tatsu.github.io/posts/</link>
     <description>Recent content in Posts on gorira-blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2019, gorira-tatsu</copyright>
     <lastBuildDate>Thu, 26 Mar 2020 21:07:37 +0900</lastBuildDate>
     
-	<atom:link href="https://gorira-tatsu.github.io/.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gorira-tatsu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>hhkb使ってボクが思ったこと</title>
-      <link>https://gorira-tatsu.github.io/.github.io/posts/2020-3-26/</link>
+      <link>https://gorira-tatsu.github.io/posts/2020-3-26/</link>
       <pubDate>Thu, 26 Mar 2020 21:07:37 +0900</pubDate>
       
-      <guid>https://gorira-tatsu.github.io/.github.io/posts/2020-3-26/</guid>
+      <guid>https://gorira-tatsu.github.io/posts/2020-3-26/</guid>
       <description>こんにちは。都知事がコロナで記者会見でマジなこと言っちゃたので（都知事は何も悪くないぞ！）近くのスーパーではカップラーメンとかボンカレーとかお肉系が消えてました。なんか新鮮味があって楽しかったです。（他人事）
 今回買ったのはHappy Hacking Keyboard Professional HYBRID Type-S 英語配列／墨で32000しました。小学生でこの出費は痛すぎる。だけどそれだけの価値があったので後悔はしていません。高級感があってとってもかっこいい。スイッチは静電容量無接点方式。接続方540gと軽い印象。ここからは買って良かったところと悪かったところを上げていきます。
 hhkb買って良かったところ 1.キーボード配列がいい 僕は英語配列買った。合理的なキー配列でホームポジションからあまり離れることがなくミスタイプは大幅に減りました。いらないキーは全て排除されて右下あたりのファンクションキーで呼び出せます。後キャップスロックがコントロールになっててとてもよき。誰だよキャップスロックとか作ったやつ。
@@ -31,10 +31,10 @@ hhkb買って良かったところ 1.キーボード配列がいい 僕は英語
     
     <item>
       <title>Hello world!</title>
-      <link>https://gorira-tatsu.github.io/.github.io/posts/2020-3-23/</link>
+      <link>https://gorira-tatsu.github.io/posts/2020-3-23/</link>
       <pubDate>Mon, 23 Mar 2020 19:44:43 +0900</pubDate>
       
-      <guid>https://gorira-tatsu.github.io/.github.io/posts/2020-3-23/</guid>
+      <guid>https://gorira-tatsu.github.io/posts/2020-3-23/</guid>
       <description>脱qiitaってことなんですけど何も言うネタないんですよね。頑張って実装したものの何もネタがないって言うか&amp;hellip;..やっぱqiita慣れしてて俺の知ってるMarkdownとなんか違うし。まあでも作ったからにはやりますよ？仕方ない。尺稼ぎ程度に使ったサービスでも紹介しておきます。
 hugo 強い。静的サイトジェネレータ。個人的にすっごいやる気でた。ってか今もhtmlとcssとかでレイアウトしてるやつおる？？？？？だるすぎて作りたくないんだけど。
 hugo テーマ Onepress 微妙。俺が悪いんだけど使いにくいしなんか一番めんどくさかった気がする。でもレイアウト自体は気に入っているのでokです

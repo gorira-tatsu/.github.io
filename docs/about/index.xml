@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on gorira-blog</title>
-    <link>https://gorira-tatsu.github.io/.github.io/about/</link>
+    <link>https://gorira-tatsu.github.io/about/</link>
     <description>Recent content in About on gorira-blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2019, gorira-tatsu</copyright>
     <lastBuildDate>Sat, 20 Jun 2015 14:02:37 +0200</lastBuildDate>
     
-	<atom:link href="https://gorira-tatsu.github.io/.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gorira-tatsu.github.io/about/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
