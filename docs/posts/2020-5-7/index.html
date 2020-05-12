@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+    <meta charset="utf-8">
+<meta https-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base href="https://gorira-tatsu.github.io/.github.io/">
+<meta name="author" content="gorira-tatsu">
+
+<meta name="generator" content="Hugo 0.69.1" />
+<title>開発環境どうすればいいの？いいところ悪いところまとめてみた！</title>
+<link rel="shortcut icon" href="https://gorira-tatsu.github.io/images/favicon.ico" type="">
+<link rel="stylesheet" href="https://gorira-tatsu.github.io/.github.io/css/style.css">
+<link rel="stylesheet" href="https://gorira-tatsu.github.io/.github.io/css/highlight.css">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+
+
+<link href="https://gorira-tatsu.github.io/.github.io/index.xml" rel="alternate" type="application/rss+xml" title="gorira-blog" />
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@https://twitter.com/GoriraTatsu">
+  <meta name="twitter:creator" content="@https://twitter.com/GoriraTatsu">
+
+
+<meta property="og:title" content="開発環境どうすればいいの？いいところ悪いところまとめてみた！">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gorira-tatsu.github.io/.github.io/">
+
+
+
+
+
+<link rel="canonical" href="https://gorira-tatsu.github.io/.github.io/posts/2020-5-7/">
+
+    </head>
+<body>
+	  <header class="header">
+			<img src="" alt="">
+
+		</header>
+    <nav class="main-nav">
+        <ul>
+    <li class="active"><a href='https://gorira-tatsu.github.io/.github.io/'>Articles</a></li>
+    <li><a href='https://gorira-tatsu.github.io/.github.io/about'>About</a></li>
+    
+        <li><a href="https://github.com/ijsucceed/onepress/blob/master/README.md#-link" target="blank"></a></li>
+    
+</ul>
+
+    </nav>
+    
+    
+    
+    <div id="site-wrapper">
+        <main>
+            
+  <article class="single">
+    <h1>開発環境どうすればいいの？いいところ悪いところまとめてみた！</h1>
+    <section class="extras">
+        <span class="tags">
+          <small class="time">May 7, 2020</small>
+          
+        </span>
+    </section>
+    <section class="description">
+      
+    </section>
+    
+    <section class="featuredImage">
+        <img src="images/hello.png" alt="開発環境どうすればいいの？いいところ悪いところまとめてみた！">
+    </section>
+    
+    <section id="content" class="body">
+        <p>皆さんは何か開発するときにどのOSを使っていますか？僕はmacやlinuxをよく使っています。<br>
+osはパソコンの一番大事なソフトですがどのosを使おうと迷ったことはありませんか？各osのいいところ悪いところをまとめてみました。</p>
+<h1 id="macos">macos</h1>
+<h2 id="macosのいいところ">macosのいいところ</h2>
+<h2 id="1homebrewがつよい">1.Homebrewが　つ　よ　い</h2>
+<p>Homebrewが基本なんでも入るし依存環境もちゃんと整えてくれて環境整備が楽。Caskでアプリケーションも入るので一番最強なパッケージマネージャーだと勝手に思ってます。</p>
+<h2 id="2unixコマンドが使える">2.UNIXコマンドが使える</h2>
+<p>cdやmv、ls、touchなど便利なコマンドがたくさんあります。これも僕が使っている理由です。</p>
+<h2 id="3iosアプリ開発がしやすい">3.iosアプリ開発がしやすい</h2>
+<p>xcodeなどのiosアプリ開発向けのソフトがappleから提供されているのでiosアプリ開発をしたい人はお勧めです</p>
+<h2 id="4windowsが乗る">4.Windowsが乗る</h2>
+<p>macosはWindowsのように一般配布されているわけではないのでこれもmacの大きな特徴です。
+デュアルブートで乗っけてもいいしvm上で乗っけてもいい。</p>
+<h2 id="悪いところ">悪いところ</h2>
+<h2 id="1windowsでしか使えないアプリがある">1.Windowsでしか使えないアプリがある</h2>
+<p>Windowsでしか使えないアプリが存在します。最近は緩和されてきましたが..</p>
+<h2 id="232bitアプリが動かない">2.32bitアプリが動かない</h2>
+<p>catarinaになってから32bitアプリを対応しなくなりました。30日間でできる！os自作入門のアプリをmac用に作ってくれた人がいたんですが32bitに対応しなくなり使えなくなりました&hellip;.</p>
+<h2 id="3filesystemがどんどん硬くなってきている">3.filesystemがどんどん硬くなってきている</h2>
+<p>catarinaにアップデートしてから一部のディレクトリが硬く保護されていてサーバーなどの低レイヤらへんを目的に活用するのが難しくなってきています。</p>
+<h2 id="まとめ">まとめ</h2>
+<p>環境整備は楽ですが最近は低レイヤに対してどんどん規制されていますのでソフトウェア開発などに向いています（多分）</p>
+<h1 id="linux">linux</h1>
+<h2 id="linuxのいいところ">linuxのいいところ</h2>
+<h2 id="1無料">1.無料！</h2>
+<p>macosやWindowsと違いOSS（オープンソース）なのでOS自体は無料（例外もある）です。簡単に導入できてVMにも最適です。</p>
+<h2 id="2種類が多い">2.種類が多い</h2>
+<p>linuxの種類が多く、例えばdebian、ubuntu、archlinuxなどいろいろ&hellip;.どれも特徴があるので確かめてみるのもいいかもしれません（詳しくは種類ではなくディストリビューションというlinuxカーネルとソフトをセットにしたもの）</p>
+<h2 id="3サーバーに使える">3.サーバーに使える</h2>
+<p>開発環境という話からは少しずれるんですが、自由度がとても高いosなのでよくサーバーに使われたりもします。Windowsもサーバー用のがあるのですが僕の知る限りではlinuxの方がシェアが高いので普段から操作に慣れておくのもいいでしょう。ターミナルになれておくとかなり有利なので是非勉強してみてください。最初は<a href="https://prog-8.com/">progate</a>で勉強するのがいいでしょう。自分もprogateで勉強していました。</p>
+<h2 id="4ディストリビューションによっては開発環境がある程度揃っている">4.ディストリビューションによっては開発環境がある程度揃っている</h2>
+<p>ディストリビューションによっては初めからpythonやpipなどが入っていることもあります。物によってはインストールが大変なこともあるのでこれはかなり助かります。</p>
+<h2 id="5動作が軽い">5.動作が軽い</h2>
+<p>linuxは全体的に軽いので古いパソコンでも快適に動きます。サポート期間が切れたOSよりもlinuxに乗り換えた方が何千倍も得だと思います。</p>
+<p>##　悪いところ</p>
+<h2 id="1macよりもインストールできるアプリが少ない">1.macよりもインストールできるアプリが少ない</h2>
+<p>macは先ほど説明したように使えないアプリが存在します。ですがmacよりも使えないアプリが多いのです。開発環境とはまた違いますがMicrosoftのOfficeは使えません。</p>
+<h2 id="2ほぼ全部自己責任">2.ほぼ全部自己責任</h2>
+<p>linuxはOSSなので無料で利用できますが無料ということは全て自己責任なのでサポートはされていません。
+わからないことがあったら当然 <strong>自分で</strong> 調べてバグなどがあったら自分で解決しなければいけません。
+身内にlinuxを使っている人なんてほとんどいないので自分で解決することが基本です。</p>
+<h1 id="windows">Windows</h1>
+<h2 id="windowsのいいところ">Windowsのいいところ</h2>
+<h2 id="1使えるアプリが多い">1.使えるアプリが多い</h2>
+<p>Windowsは世界で一番使われいるOSです。</p>
+<!-- raw HTML omitted -->
+<h2 id="windowsの悪いところ">Windowsの悪いところ</h2>
+<h2 id="1">1.</h2>
+<h1 id="まとめ-1">まとめ</h1>
+
+    </section> 
+    
+    
+     
+  </article>
+  
+<div class="share-card">
+    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fgorira-tatsu.github.io%2f.github.io%2fposts%2f2020-5-7%2f - %e9%96%8b%e7%99%ba%e7%92%b0%e5%a2%83%e3%81%a9%e3%81%86%e3%81%99%e3%82%8c%e3%81%b0%e3%81%84%e3%81%84%e3%81%ae%ef%bc%9f%e3%81%84%e3%81%84%e3%81%a8%e3%81%93%e3%82%8d%e6%82%aa%e3%81%84%e3%81%a8%e3%81%93%e3%82%8d%e3%81%be%e3%81%a8%e3%82%81%e3%81%a6%e3%81%bf%e3%81%9f%ef%bc%81 by @https%3a%2f%2ftwitter.com%2fGoriraTatsu"><i class="fa fa-twitter"></i> Tweet</a>
+
+    <a class="facebook" href="#" onclick="
+        window.open(
+          'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+          'facebook-share-dialog',
+          'width=626,height=436');
+        return false;"><i class="fa fa-facebook"></i> Share
+    </a>
+</div>
+
+
+ 
+  
+  
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = '';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript"></a></noscript>
+<a href="https://disqus.com/" class="dsq-brlink"> <span class="logo-disqus"></span></a>
+
+        </main>
+        
+        <aside class="desktop-only">
+            
+	<div class="widgets">
+      
+  <section itemscope itemtype="https://schema.org/Person" class="widget socials">
+    <h2 class="widget-title">Socials</h2>
+    <ul>
+        
+        
+        <li><a href="https://twitter.com/GoriraTatsu"><i class="fa fa-twitter"></i></a></li>
+        
+        
+        
+        <li><a href="https://github.com/gorira-tatsu"><i class="fa fa-github"></i></a></li>
+        
+    </ul>
+  </section>
+ 
+  <section class="widget widget-one">
+    
+    <h2 class="widget-title">Widget 2</h2>
+  </section>
+    
+    
+ 
+
+</div>
+
+
+            <footer id="footer">
+    <p class="small">
+      Copyright © 2019, gorira-tatsu
+    </p>
+</footer>
+        </aside>
+    </div>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://gorira-tatsu.github.io/.github.io/js/main.js"></script>
+<script src="https://gorira-tatsu.github.io/.github.io/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+</body>
+</html>
