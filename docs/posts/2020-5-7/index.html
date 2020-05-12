@@ -8,7 +8,7 @@
 <meta name="author" content="gorira-tatsu">
 
 <meta name="generator" content="Hugo 0.69.1" />
-<title>開発環境どうすればいいの？いいところ悪いところまとめてみた！</title>
+<title>開発環境どうすればいいの？Windowsは使いにくい！？まとめてみた！</title>
 <link rel="shortcut icon" href="https://gorira-tatsu.github.io/images/favicon.ico" type="">
 <link rel="stylesheet" href="https://gorira-tatsu.github.io/.github.io/css/style.css">
 <link rel="stylesheet" href="https://gorira-tatsu.github.io/.github.io/css/highlight.css">
@@ -26,7 +26,7 @@
   <meta name="twitter:creator" content="@https://twitter.com/GoriraTatsu">
 
 
-<meta property="og:title" content="開発環境どうすればいいの？いいところ悪いところまとめてみた！">
+<meta property="og:title" content="開発環境どうすればいいの？Windowsは使いにくい！？まとめてみた！">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://gorira-tatsu.github.io/.github.io/">
 
@@ -59,7 +59,7 @@
         <main>
             
   <article class="single">
-    <h1>開発環境どうすればいいの？いいところ悪いところまとめてみた！</h1>
+    <h1>開発環境どうすればいいの？Windowsは使いにくい！？まとめてみた！</h1>
     <section class="extras">
         <span class="tags">
           <small class="time">May 7, 2020</small>
@@ -71,19 +71,20 @@
     </section>
     
     <section class="featuredImage">
-        <img src="images/hello.png" alt="開発環境どうすればいいの？いいところ悪いところまとめてみた！">
+        <img src="images/2020-5-7.png" alt="開発環境どうすればいいの？Windowsは使いにくい！？まとめてみた！">
     </section>
     
     <section id="content" class="body">
-        <p>皆さんは何か開発するときにどのOSを使っていますか？僕はmacやlinuxをよく使っています。<br>
-osはパソコンの一番大事なソフトですがどのosを使おうと迷ったことはありませんか？各osのいいところ悪いところをまとめてみました。</p>
+        <p>皆さんは何か開発するときにどのOSを使っていますか？そのOS満足してますか？使いやすいですか？
+使うにしても「macos、Linux、Windows」どれを選べばいいのでしょう？（できるだけ）わかりやすくまとめてみました！</p>
 <h1 id="macos">macos</h1>
+<p><img src="images/mac.png" alt="mac"></p>
 <h2 id="macosのいいところ">macosのいいところ</h2>
 <h2 id="1homebrewがつよい">1.Homebrewが　つ　よ　い</h2>
 <p>Homebrewが基本なんでも入るし依存環境もちゃんと整えてくれて環境整備が楽。Caskでアプリケーションも入るので一番最強なパッケージマネージャーだと勝手に思ってます。</p>
 <h2 id="2unixコマンドが使える">2.UNIXコマンドが使える</h2>
 <p>cdやmv、ls、touchなど便利なコマンドがたくさんあります。これも僕が使っている理由です。</p>
-<h2 id="3iosアプリ開発がしやすい">3.iosアプリ開発がしやすい</h2>
+<h2 id="3iosアプリ開発がしやすいwindows-subsystem-for-linux">3.iosアプリ開発がしやすいWindows Subsystem for Linux</h2>
 <p>xcodeなどのiosアプリ開発向けのソフトがappleから提供されているのでiosアプリ開発をしたい人はお勧めです</p>
 <h2 id="4windowsが乗る">4.Windowsが乗る</h2>
 <p>macosはWindowsのように一般配布されているわけではないのでこれもmacの大きな特徴です。
@@ -95,9 +96,8 @@ osはパソコンの一番大事なソフトですがどのosを使おうと迷�
 <p>catarinaになってから32bitアプリを対応しなくなりました。30日間でできる！os自作入門のアプリをmac用に作ってくれた人がいたんですが32bitに対応しなくなり使えなくなりました&hellip;.</p>
 <h2 id="3filesystemがどんどん硬くなってきている">3.filesystemがどんどん硬くなってきている</h2>
 <p>catarinaにアップデートしてから一部のディレクトリが硬く保護されていてサーバーなどの低レイヤらへんを目的に活用するのが難しくなってきています。</p>
-<h2 id="まとめ">まとめ</h2>
-<p>環境整備は楽ですが最近は低レイヤに対してどんどん規制されていますのでソフトウェア開発などに向いています（多分）</p>
 <h1 id="linux">linux</h1>
+<p><img src="images/linux.svg" alt="linux"></p>
 <h2 id="linuxのいいところ">linuxのいいところ</h2>
 <h2 id="1無料">1.無料！</h2>
 <p>macosやWindowsと違いOSS（オープンソース）なのでOS自体は無料（例外もある）です。簡単に導入できてVMにも最適です。</p>
@@ -117,13 +117,33 @@ osはパソコンの一番大事なソフトですがどのosを使おうと迷�
 わからないことがあったら当然 <strong>自分で</strong> 調べてバグなどがあったら自分で解決しなければいけません。
 身内にlinuxを使っている人なんてほとんどいないので自分で解決することが基本です。</p>
 <h1 id="windows">Windows</h1>
+<p><img src="images/windows.jpg" alt="windows"></p>
 <h2 id="windowsのいいところ">Windowsのいいところ</h2>
-<h2 id="1使えるアプリが多い">1.使えるアプリが多い</h2>
+<h2 id="1世界で一番使われている">1.世界で一番使われている</h2>
 <p>Windowsは世界で一番使われいるOSです。</p>
-<!-- raw HTML omitted -->
+<p><img src="images/2020-5-7date.png" alt="date"></p>
+<p>(青 Windows 緑 Macos 灰色 Linux)
+netmarketshareより</p>
+<p>なので使えるアプリが豊富だったり、情報が豊富。使っている人も多いので人に聞けたり、学校や会社でも使ってることが多いので使っていて損はないと思います。</p>
+<h2 id="2専門的知識を必要としない">2.専門的知識を必要としない</h2>
+<p>Windowsはとても使いやすいように設計されているので専門知識を必要とせず簡単に操作できます。
+もしわからない点があっても豊富な情報があるので大丈夫です。</p>
 <h2 id="windowsの悪いところ">Windowsの悪いところ</h2>
-<h2 id="1">1.</h2>
-<h1 id="まとめ-1">まとめ</h1>
+<h2 id="1最初からターミナルが使えない">1.最初からターミナルが使えない</h2>
+<p>最初からターミナルが用意されていません。なので使うには自分で用意する必要があります
+大まかな方法としては</p>
+<ul>
+<li>vmでlinuxを作って使う</li>
+<li>Windows Subsystem for Linuxを使う</li>
+<li>ssh接続で使う</li>
+</ul>
+<p>だと思います。ちょっとめんどくさいから最初に入れてくれ&hellip;.</p>
+<h2 id="2インストールがめんどくさい">2.インストールがめんどくさい</h2>
+<p>macやlinuxとは違ってウィンドウズにはパッケージマネージャーが（知る限りでは）ないのでわざわざインストールして展開して同意とかしてパスワード打ってやっとインストール。めんどくちゃい&hellip;..</p>
+<h2 id="まとめ">まとめ</h2>
+<p>macos →フロンドエンド向け。WindowsとLinuxのいいところどりをしたOS。<br>
+windows →かなり開発には厳しいOSだがほとんどのアプリが自由に使えてゲーム開発などに向いている。<br>
+linux →自由。なんでもできる。僕はサーバーに使ったりちょっとした勉強に使っている。</p>
 
     </section> 
     
@@ -132,7 +152,7 @@ osはパソコンの一番大事なソフトですがどのosを使おうと迷�
   </article>
   
 <div class="share-card">
-    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fgorira-tatsu.github.io%2f.github.io%2fposts%2f2020-5-7%2f - %e9%96%8b%e7%99%ba%e7%92%b0%e5%a2%83%e3%81%a9%e3%81%86%e3%81%99%e3%82%8c%e3%81%b0%e3%81%84%e3%81%84%e3%81%ae%ef%bc%9f%e3%81%84%e3%81%84%e3%81%a8%e3%81%93%e3%82%8d%e6%82%aa%e3%81%84%e3%81%a8%e3%81%93%e3%82%8d%e3%81%be%e3%81%a8%e3%82%81%e3%81%a6%e3%81%bf%e3%81%9f%ef%bc%81 by @https%3a%2f%2ftwitter.com%2fGoriraTatsu"><i class="fa fa-twitter"></i> Tweet</a>
+    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fgorira-tatsu.github.io%2f.github.io%2fposts%2f2020-5-7%2f - %e9%96%8b%e7%99%ba%e7%92%b0%e5%a2%83%e3%81%a9%e3%81%86%e3%81%99%e3%82%8c%e3%81%b0%e3%81%84%e3%81%84%e3%81%ae%ef%bc%9fWindows%e3%81%af%e4%bd%bf%e3%81%84%e3%81%ab%e3%81%8f%e3%81%84%ef%bc%81%ef%bc%9f%e3%81%be%e3%81%a8%e3%82%81%e3%81%a6%e3%81%bf%e3%81%9f%ef%bc%81 by @https%3a%2f%2ftwitter.com%2fGoriraTatsu"><i class="fa fa-twitter"></i> Tweet</a>
 
     <a class="facebook" href="#" onclick="
         window.open(
